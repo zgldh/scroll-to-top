@@ -15,8 +15,6 @@
 </template>
 
 <script type="javascript">
-  const delta = 15
-
   export default {
     name: 'scroll-top-top',
     props: {
