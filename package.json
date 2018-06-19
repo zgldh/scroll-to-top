@@ -1,0 +1,25 @@
+{
+  "name": "scroll-to-top",
+  "version": "1.0.0",
+  "description": "A scroll page/container to top button made with Vue2",
+  "main": "index.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgldh/scroll-to-top.git"
+  },
+  "keywords": [
+    "scroll",
+    "page",
+    "top",
+    "vue2"
+  ],
+  "author": "zgldh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgldh/scroll-to-top/issues"
+  },
+  "homepage": "https://github.com/zgldh/scroll-to-top#readme"
+}
