@@ -7,7 +7,7 @@ A scroll page/container to top button made with Vue2
 ## 使用
 
 ```
-npm install zgldh/scroll-to-top
+npm i vue-scroll-to-top
 ```
 
 在 Vue 页面里
