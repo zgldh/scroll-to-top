@@ -1,6 +1,6 @@
 {
   "name": "vue-scroll-to-top",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A scroll page/container to top button made with Vue2",
   "main": "index.vue",
   "scripts": {
