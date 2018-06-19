@@ -13,7 +13,7 @@ npm i vue-scroll-to-top
 在 Vue 页面里
 
 ```
-import ScrollToTop from '@/components/ScrollToTop'
+import ScrollToTop from 'vue-scroll-to-top'
 components: { ScrollToTop },
 
 <template>
