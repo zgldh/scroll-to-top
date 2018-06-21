@@ -82,14 +82,22 @@
       setupScrollBox(){
         this.throttledScrollHandler = _.throttle(this.handleScroll, 300);
         this.componentScrollBox.addEventListener('scroll', this.throttledScrollHandler);
+        this.componentScrollBox.addEventListener('wheel', this.handleWheel);
       },
       unsetScrollBox(){
         this.componentScrollBox.removeEventListener('scroll', this.throttledScrollHandler);
+        this.componentScrollBox.removeEventListener('wheel', this.handleWheel);
       },
       toTop() {
         this.hover = false;
         this.showBackToTop = false;
         this.startScrollToTop();
+      },
+      handleWheel(e){
+        if (this.scrollToTopTimer) {
+          clearInterval(this.scrollToTopTimer)
+          this.scrollToTopTimer = null
+        }
       },
       handleScroll(e) {
         const scrollTop = this.componentScrollBox.scrollTop;
